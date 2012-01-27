@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Gift Aid Calculator</title>
+<meta charset="utf-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+<script src="js/jquery.giftaidcalc.js"></script>
+<script>
+$(function(){
+  $('#giftaidcalculator').giftaidcalc();
+});
+</script>
+
+<style>
+  #giftaidcalculator {
+    width:460px;
+  }
+  #giftaidcalculator label,
+  #giftaidcalculator input,
+  #giftaidcalculator select {
+    display:block;
+  }
+</style>
+
+</head>
+<body>
+<div id="giftaidcalculator"></div>
+</body>
+</html>
